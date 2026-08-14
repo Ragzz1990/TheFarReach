@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="420">
+<rect width="620" height="420" fill="#071014"/><circle cx="310" cy="180" r="125" fill="#d6b566" opacity=".08"/>
+<rect x="165" y="68" width="290" height="210" rx="28" fill="#0d1b21" stroke="#d6b566" stroke-width="3"/>
+<path d="M245 173h130M310 108v130" stroke="#d6b566" stroke-width="8" opacity=".75"/>
+<circle cx="310" cy="173" r="68" fill="none" stroke="#d6b566" stroke-width="5"/>
+<text x="310" y="332" text-anchor="middle" fill="#edf5f3" font-family="Arial" font-weight="700" font-size="25">Glass Cargo Unit</text>
+<text x="310" y="366" text-anchor="middle" fill="#d6b566" font-family="monospace" font-size="13">CONTRABAND</text>
+</svg>

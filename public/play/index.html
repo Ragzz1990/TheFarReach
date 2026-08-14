@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Play — The Far Reach</title>
+<meta name="description" content="The Far Reach galactic sandbox TTRPG.">
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body data-page="play">
+
+<header class="topbar">
+  <a class="brand" href="/home/"><span>◇</span><b>THE FAR REACH</b></a>
+  <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  <nav id="nav">
+    <a href="/home/">Home</a>
+    <a href="/play/">Play</a>
+    <a href="/rules/">Rules</a>
+    <a href="/characters/">Characters</a>
+    <a href="/galaxy/">Galaxy</a>
+    <a href="/shipyard/">Shipyard</a>
+    <a href="/stores/">Stores</a>
+    <a href="/underworld/">Underworld</a>
+    <a href="/gm/">GM</a>
+  </nav>
+</header>
+
+<main>
+<section class="panel page-top"><div class="section-head"><span>01</span><div><h1>Play</h1><p>Create and save a character or crew, or roll dice at the table.</p></div></div>
+<div class="tabs"><button class="tab active" data-tab="characterTool">Character Creator</button><button class="tab" data-tab="crewTool">Crew Sheet</button><button class="tab" data-tab="diceTool">Dice Roller</button></div>
+<div id="characterTool" class="tool active"><div class="form-grid"><label>Name<input id="charName"></label><label>People<select id="charPeople"></select></label><label>Background<select id="charBackground"></select></label><label>Career<select id="charCareer"></select></label><label>Specialisation<select id="charSpec"></select></label><label>Level<input id="charLevel" type="number" min="1" max="20" value="1"></label></div><button id="saveCharacter" class="button primary">SAVE CHARACTER</button><div id="charOutput" class="output"></div></div>
+<div id="crewTool" class="tool"><div class="form-grid"><label>Crew Name<input id="crewName"></label><label>Credits<input id="crewCredits" type="number" value="2500"></label><label>Heat<input id="crewHeat" type="number" value="0" min="0" max="100"></label><label>Ship<select id="crewShip"></select></label></div><label>Notes<textarea id="crewNotes" rows="7"></textarea></label><button id="saveCrew" class="button primary">SAVE CREW</button><div id="crewOutput" class="output"></div></div>
+<div id="diceTool" class="tool"><div class="dice-row"><select id="dieType"><option>d20</option><option>d12</option><option>d10</option><option>d8</option><option>d6</option><option>d4</option></select><input id="dieCount" type="number" min="1" max="20" value="1"><input id="dieMod" type="number" value="0"><button id="rollDice" class="button primary">ROLL</button></div><div id="diceResult" class="big-result">—</div></div>
+</section></main>
+<footer><span>THE FAR REACH // CLOUDFLARE BUILD 2.0</span><span>PRIVATE ALPHA</span></footer>
+<script src="/data/app-data.js"></script>
+<script src="/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Far Reach — Access</title><link rel="stylesheet" href="/css/site.css"></head>
+<body class="entry-page">
+<div class="bio-gate">
+  <div class="bio-shell">
+    <div class="bio-head"><span>FAR REACH NAVCOM</span><span>ACCESS NODE // 7A</span></div>
+    <div class="bio-grid">
+      <section class="bio-left">
+        <div class="microtitle">BIOMETRIC ACCESS REQUIRED</div>
+        <div class="scan-stage" id="fingerStage">
+          <div class="stage-title"><b>1.</b> FINGERPRINT AUTHENTICATION</div>
+          <button id="fingerButton" class="finger-button" aria-label="Begin fingerprint scan">
+            <div class="fingerprint-icon"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <span class="finger-sweep"></span>
+          </button>
+          <div class="stage-caption" id="fingerCaption">CLICK FINGERPRINT TO INITIATE SCAN</div>
+        </div>
+        <div class="scan-stage locked" id="eyeStage">
+          <div class="stage-title"><b>2.</b> RETINAL AUTHENTICATION</div>
+          <button id="eyeButton" class="eye-button" disabled aria-label="Begin retinal scan">
+            <div class="eye-outer"><div class="iris"><div class="pupil"></div></div><span class="eye-cross x"></span><span class="eye-cross y"></span></div>
+          </button>
+          <div class="stage-caption" id="eyeCaption">RETINAL ARRAY LOCKED</div>
+        </div>
+      </section>
+      <section class="bio-right">
+        <div class="brand-mark"><span>◇</span><div>THE <strong>FAR REACH</strong><small>GALACTIC ACCESS TERMINAL</small></div></div>
+        <h1 id="bioTitle">ACCESS<br><span>REQUIRED</span></h1>
+        <div class="bio-checks">
+          <div><span>IDENTITY MATCH</span><b id="c1">PENDING</b></div>
+          <div><span>NEURAL PATTERN</span><b id="c2">PENDING</b></div>
+          <div><span>CYBERNETIC TRACE</span><b id="c3">PENDING</b></div>
+          <div><span>VEIN RESONANCE</span><b id="c4">PENDING</b></div>
+          <div><span>ACCESS CLEARANCE</span><b id="c5">LOCKED</b></div>
+        </div>
+        <div class="bio-progress"><div id="bioProgress"></div></div>
+        <div id="bioMessage" class="bio-message">PLACE INDEX FINGER ON THE BIOMETRIC PAD.</div>
+        <button id="skipGate" class="button ghost small">SKIP AUTHENTICATION</button>
+      </section>
+    </div>
+    <div class="bio-foot"><span>SECURE CONNECTION</span><span>CONDOR GALAXY RELAY</span><span>BUILD 2.0</span></div>
+  </div>
+</div>
+<script src="/js/entry.js"></script>
+</body></html>
