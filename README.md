@@ -14,6 +14,7 @@ Routes:
 - `/play/`
 - `/rules/`
 - `/characters/`
+- `/careers/`
 - `/galaxy/`
 - `/shipyard/`
 - `/stores/`

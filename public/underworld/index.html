@@ -12,21 +12,10 @@
 <header class="topbar">
   <a class="brand" href="/home/"><span>◇</span><b>THE FAR REACH</b></a>
   <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
-  <nav id="nav">
-    <a href="/home/">Home</a>
-    <a href="/play/">Play</a>
-    <a href="/rules/">Rules</a>
-    <a href="/characters/">Characters</a>
-    <a href="/galaxy/">Galaxy</a>
-    <a href="/shipyard/">Shipyard</a>
-    <a href="/stores/">Stores</a>
-    <a href="/underworld/">Underworld</a>
-    <a href="/law/">LAW</a>
-    <a href="/gm/">GM</a>
-  </nav>
+  <nav id="nav"><a href="/home/">Home</a><a href="/play/">Play</a><a href="/characters/">Characters</a><a href="/careers/">Careers</a><a href="/rules/">Rules</a><a href="/galaxy/">Galaxy</a><a href="/shipyard/">Shipyard</a><a href="/stores/">Stores</a><a href="/underworld/">Underworld</a><a href="/law/">LAW</a><a href="/gm/">GM</a></nav>
 </header>
 
-<main><section class="panel page-top"><div class="section-head"><span>07</span><div><h1>The Underworld</h1><p>Smuggling, fictional contraband, Heat, illegal cybernetics and criminal ship technology.</p></div></div>
+<main><section class="panel page-top"><div class="section-head"><span>07</span><div><h1>The Underworld Exchange</h1><p>Search stolen robotics, ship crime, cybernetics, weapons, contraband and criminal intelligence.</p></div></div>
 <div class="notice danger-note">Black-market prices vary by law level, scarcity, Heat and syndicate Reputation. Sentient trafficking may exist as a criminal setting evil, but sentient captives are not player inventory; those networks create rescue and infiltration missions.</div>
 <div class="filterbar"><input id="blackSearch" placeholder="Search black market..."><select id="blackCategory"><option value="">All categories</option></select><select id="blackLaw"><option value="">All legality</option></select></div>
 <div class="commerce-layout"><div id="blackGrid" class="catalogue"></div><aside id="blackDetail" class="detail-panel"></aside></div></section>
@@ -34,6 +23,7 @@
 <div class="form-grid"><label>Origin<select id="runOrigin"></select></label><label>Destination<select id="runDest"></select></label><label>Cargo<select id="runCargo"><option value="1800|Neon Dust">Neon Dust</option><option value="2500|Red Mercy">Red Mercy</option><option value="3200|Dreamseed">Dreamseed</option><option value="4500|Glass">Glass</option><option value="6000|Helix-9">Helix-9</option></select></label></div><button id="planRun" class="button primary">CALCULATE RUN</button><div id="runResult" class="output"></div></section></main>
 <footer><span>THE FAR REACH // CLOUDFLARE BUILD 2.0</span><span>PRIVATE ALPHA</span></footer>
 <script src="/data/app-data.js"></script>
+<script src="/data/underworld-data.js"></script>
 <script src="/js/site.js"></script>
 </body>
 </html>
