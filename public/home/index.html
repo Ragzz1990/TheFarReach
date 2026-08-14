@@ -12,35 +12,23 @@
 <header class="topbar">
   <a class="brand" href="/home/"><span>◇</span><b>THE FAR REACH</b></a>
   <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
-  <nav id="nav">
-    <a href="/home/">Home</a>
-    <a href="/play/">Play</a>
-    <a href="/rules/">Rules</a>
-    <a href="/characters/">Characters</a>
-    <a href="/galaxy/">Galaxy</a>
-    <a href="/shipyard/">Shipyard</a>
-    <a href="/stores/">Stores</a>
-    <a href="/underworld/">Underworld</a>
-    <a href="/law/">LAW</a>
-    <a href="/gm/">GM</a>
-  </nav>
+  <nav id="nav"><a href="/home/">Home</a><a href="/play/">Play</a><a href="/characters/">Characters</a><a href="/careers/">Careers</a><a href="/rules/">Rules</a><a href="/galaxy/">Galaxy</a><a href="/shipyard/">Shipyard</a><a href="/stores/">Stores</a><a href="/underworld/">Underworld</a><a href="/law/">LAW</a><a href="/gm/">GM</a></nav>
 </header>
 
 <main>
-<section class="hero hero-home">
-  <div class="hero-copy">
+<section class="hero hero-home cosmic-hero">
+  <div class="cosmic-scene" aria-hidden="true"><i class="planet planet-a"></i><i class="planet planet-b"></i><i class="moon"></i><i class="station-silhouette"></i><svg class="vein-lines" viewBox="0 0 1000 500" preserveAspectRatio="none"><path d="M-20 410 Q220 120 470 330 T1020 90"/><path d="M-20 460 Q300 260 560 390 T1020 210"/><path d="M120 520 Q360 120 860 -20"/></svg></div>
+  <div class="hero-copy cosmic-copy">
     <div class="eyebrow">A GALACTIC SANDBOX TTRPG</div>
     <h1>HUNT. TRADE.<br>EXPLORE.<br><span>CROSS THE VEINS.</span></h1>
     <p>The Far Reach is a distant human-and-alien frontier threaded by Vein routes: ancient transit phenomena that make interstellar civilisation possible. Trade powers, pirate clans, independent colonies, bounty exchanges and unknowable Precursor sites all compete for the same routes.</p>
     <div class="cta"><a class="button primary" href="/galaxy/">ENTER THE GALAXY</a><a class="button" href="/play/">CREATE A CHARACTER</a></div>
+    <div class="hero-status"><span>CONDOR GALAXY</span><b>VEIN NETWORK ONLINE</b><i>44 CHARTED LOCATIONS</i></div>
   </div>
-  <div class="hero-visual"><img src="/images/ui/far-reach-command-deck.png" alt="Far Reach galactic interface"><div class="hero-veil"></div><div class="hero-caption"><span>CONDOR GALAXY</span><b>NAVIGATION NETWORK ONLINE</b></div></div>
 </section>
-<section class="hub-cards">
-  <a href="/galaxy/" class="hub-card"><span>GALAXY</span><h3>43 CHARTED LOCATIONS</h3><p>World lore, law, factions, economy and black-market activity.</p></a>
-  <a href="/shipyard/" class="hub-card"><span>SHIPYARD</span><h3>16 SHIP FRAMES</h3><p>Compare crew, cargo, defence, shields and price.</p></a>
-  <a href="/stores/" class="hub-card"><span>GALACTIC STORES</span><h3>35 MARKET ITEMS</h3><p>Weapons, armour, robots, tools and ship modules.</p></a>
-  <a href="/underworld/" class="hub-card red"><span>UNDERWORLD</span><h3>HIGH RISK. HIGH PROFIT.</h3><p>Contraband, Heat, smugglers and illegal technology.</p></a>
+<section class="command-dashboard">
+  <div class="dashboard-head"><span>FAR REACH COMMAND INDEX</span><b>SELECT DATABASE</b></div>
+  <div class="dashboard-grid"><a href="/galaxy/"><span>01</span><b>GALAXY</b><small>Atlas & NAVCOM</small></a><a href="/characters/"><span>02</span><b>CHARACTERS</b><small>Peoples & origins</small></a><a href="/careers/"><span>03</span><b>CAREERS</b><small>Levels 1–20</small></a><a href="/shipyard/"><span>04</span><b>SHIPYARD</b><small>Vessels & frames</small></a><a href="/stores/"><span>05</span><b>STORES</b><small>Licensed equipment</small></a><a class="danger" href="/underworld/"><span>06</span><b>UNDERWORLD</b><small>Contraband & Heat</small></a><a href="/law/"><span>07</span><b>LAW</b><small>Crimes & warrants</small></a><a href="/gm/"><span>08</span><b>GM</b><small>Campaign controls</small></a></div>
 </section>
 <section class="panel"><div class="section-head"><span>01</span><div><h1>The Known Powers</h1><p>The factions most crews encounter first.</p></div></div><div class="info-grid" id="factionCards"></div></section>
 </main>
