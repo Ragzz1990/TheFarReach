@@ -21,6 +21,7 @@
     <a href="/shipyard/">Shipyard</a>
     <a href="/stores/">Stores</a>
     <a href="/underworld/">Underworld</a>
+    <a href="/law/">LAW</a>
     <a href="/gm/">GM</a>
   </nav>
 </header>
@@ -29,9 +30,11 @@
 <div class="filterbar"><input id="planetSearch" placeholder="Search planet, faction, industry..."><select id="planetRegion"><option value="">All regions</option></select><select id="planetBlack"><option value="">All black-market levels</option></select></div>
 <div class="atlas-layout"><div class="galaxy-map" id="galaxyMap"><svg id="routeLayer" viewBox="0 0 100 100" preserveAspectRatio="none"></svg><div id="planetMarkers"></div></div><aside id="planetDetail" class="detail-panel"></aside></div></section>
 <section class="panel navcom-panel"><div class="section-head"><span>04B</span><div><h1>NAVCOM Route Calculator</h1><p>Plot a live course using registered worlds, ship performance and local route conditions.</p></div></div>
-<div class="navcom-grid"><form id="navcomForm" class="navcom-controls"><label>Origin<select id="routeOrigin"></select></label><label>Destination<select id="routeDestination"></select></label><label>Ship<select id="routeShip"></select></label><label>Route preference<select id="routePreference"><option>Balanced</option><option>Fastest</option><option>Safest</option><option>Smuggler</option></select></label><button class="button" type="submit">CALCULATE ROUTE</button><p class="navcom-note">NAVCOM estimates are advisory. Vein weather and hostile traffic can change without notice.</p></form><div id="routeResult" class="navcom-result"><div class="empty-state">AWAITING ROUTE PARAMETERS</div></div></div></section></main>
+<div class="navcom-grid"><form id="navcomForm" class="navcom-controls"><label>Origin<select id="routeOrigin"></select></label><label>Destination<select id="routeDestination"></select></label><label>Ship<select id="routeShip"></select></label><label>Route preference<select id="routePreference"><option>Balanced</option><option>Fastest</option><option>Safest</option><option>Smuggler</option></select></label><label>Current HEAT <input id="routeHeat" type="number" min="0" max="100" value="0"></label><button class="button" type="submit">CALCULATE ROUTE</button><p class="navcom-note">NAVCOM estimates are advisory. High-Heat crews risk identification at lawful checkpoints; Smuggler courses reduce exposure.</p></form><div id="routeResult" class="navcom-result"><div class="empty-state">AWAITING ROUTE PARAMETERS</div></div></div></section></main>
 <footer><span>THE FAR REACH // CLOUDFLARE BUILD 2.0</span><span>PRIVATE ALPHA</span></footer>
 <script src="/data/app-data.js"></script>
+<script src="/data/veyr-data.js"></script>
+<script src="/data/law-data.js"></script>
 <script src="/js/site.js"></script>
 </body>
 </html>

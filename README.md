@@ -18,6 +18,7 @@ Routes:
 - `/shipyard/`
 - `/stores/`
 - `/underworld/`
+- `/law/`
 - `/gm/`
 
 `wrangler.jsonc` uses Workers Static Assets with `assets.directory: ./public`.
